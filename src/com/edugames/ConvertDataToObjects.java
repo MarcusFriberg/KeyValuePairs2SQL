@@ -39,7 +39,7 @@ public class ConvertDataToObjects {
         File file;
 
         try {
-            file = new File("/Users/marcus/IntelliJ Projects/JSON2SQL/src/com/edugames/data.txt");
+            file = new File("C:\\Users\\MarcusFriberg\\Utbildning\\Edugrade\\HT22\\Inlämningsuppgifter\\Java Programmering\\KeyValuePairs2SQL\\src\\com\\edugames\\data.txt");
             scanner = new Scanner(file);
             while(scanner.hasNextLine()) {
                 s = scanner.nextLine();
